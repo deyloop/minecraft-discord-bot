@@ -9,6 +9,7 @@ verify_ssl = true
 python-dotenv = "*"
 boto3 = "*"
 "discord.py" = "*"
+mcstatus = "*"
 
 [requires]
 python_version = "3.8"
