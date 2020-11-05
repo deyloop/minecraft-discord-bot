@@ -120,7 +120,7 @@ async def stop(ctx):
         status = server.status()
         if status.players.online != 0:
             await ctx.send(
-                f"There is/are {status.players.online} players(s) still playing\n. Can not stop server."
+                f"Number of Players still playing: {status.players.online}\n. Can not stop the server!"
             )
             return
         else:
